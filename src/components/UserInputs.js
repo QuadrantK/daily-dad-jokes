@@ -41,6 +41,7 @@ const UserInputs = ({ propTerm, propLimit, propSubmit }) => {
                     onSubmit={(event) => handleSubmit(event)}
                 >
                     <label htmlFor="select">Select Your Theme</label>
+                    <p>Please Pick A Photo Category</p>
                     <select className="dropDown"
                         id="category"
                         name="category"
@@ -57,6 +58,7 @@ const UserInputs = ({ propTerm, propLimit, propSubmit }) => {
                     <div className='customDadDiv'>
                         <div className="stackBox">
                             <label htmlFor="jokeNumberOne">Please Add A Dad Joke</label>
+                            <p>Enter 1 Custom Dad Joke</p>
                             <input
                                 type="text"
                                 value={jokeNumberOne}

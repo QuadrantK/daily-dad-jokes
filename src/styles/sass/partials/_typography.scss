@@ -71,9 +71,17 @@ a {
 }
 
 a:hover {
-     color: $blue;
+     color: $lemon;
 }
 
 footer p{
      font-size: 1.5rem;
+}
+
+label {
+     font-family: $baseFont;
+     margin: 10px 0;
+     font-size: 1.5rem;
+     font-weight: normal;
+     text-decoration: underline
 }

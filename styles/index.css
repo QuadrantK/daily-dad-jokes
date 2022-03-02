@@ -63,11 +63,19 @@ a {
 }
 
 a:hover {
-  color: #a8f0f0;
+  color: #f0ffa8;
 }
 
 footer p {
   font-size: 1.5rem;
+}
+
+label {
+  font-family: "Chicle", cursive;
+  margin: 10px 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-decoration: underline;
 }
 
 html {
@@ -288,6 +296,20 @@ html {
   box-sizing: border-box;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -444,6 +466,14 @@ input:hover {
 
 .slideshowDot.active {
   background-color: #16558F;
+}
+
+.slide img {
+  height: 350px;
+  width: 350px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 20px;
 }
 
 .go-back {
